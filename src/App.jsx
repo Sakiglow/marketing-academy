@@ -406,11 +406,16 @@ const TOTAL_MODULES = COURSES.reduce((acc, ch) => acc + ch.modules.length, 0);
 
 // ─── Users (tu peux modifier cette liste) ──────
 const USERS = [
-  { id: "alex", name: "Alex", email: "alex@venturahighway.ch", pin: "1234" },
-  { id: "coralie", name: "Coralie", email: "coralie@venturahighway.ch", pin: "1234" },
-  { id: "katinka", name: "Katinka", email: "katinka@venturahighway.ch", pin: "1234" },
-  { id: "mariana", name: "Mariana", email: "mariana@venturahighway.ch", pin: "1234" },
-  { id: "mike", name: "Mike", email: "mike@venturahighway.ch", pin: "1234" },
+  { id: "alex", name: "Alex", email: "alex@dumdup.ch", pin: "1234" },
+  { id: "coralie", name: "Coralie", email: "coralie@dumdup.ch", pin: "1234" },
+  { id: "katinka", name: "Katinka", email: "katinka@dumdup.ch", pin: "1234" },
+  { id: "sophie", name: "Sophie", email: "sophie@dumdup.ch", pin: "1234" },
+  { id: "aurelien", name: "Aurelien", email: "aurelien@dumdup.ch", pin: "1234" },
+  { id: "christina", name: "Christina", email: "cdeq2@yahoo.fr", pin: "1234" },
+  { id: "morgane", name: "Morgane", email: "morgane@dumdup.ch", pin: "1234" },
+  { id: "juliette", name: "Juliette", email: "juliette@dumdup.ch", pin: "1234" },
+
+
 ];
 
 // ─── Auth + Persistence ──────────────────────────
