@@ -406,7 +406,7 @@ const TOTAL_MODULES = COURSES.reduce((acc, ch) => acc + ch.modules.length, 0);
 
 // ─── Users (tu peux modifier cette liste) ──────
 const USERS = [
-  { id: "alex", name: "Alex", email: "alex@dumdup.ch", pin: "1234" },
+  { id: "alex", name: "Alex", email: "alexandre@dumdup.ch", pin: "1234" },
   { id: "coralie", name: "Coralie", email: "coralie@dumdup.ch", pin: "1234" },
   { id: "katinka", name: "Katinka", email: "katinka@dumdup.ch", pin: "1234" },
   { id: "sophie", name: "Sophie", email: "sophie@dumdup.ch", pin: "1234" },
