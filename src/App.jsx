@@ -549,6 +549,7 @@ function useProgress(userId) {
 
 // ─── Setup: seed users to Firebase ───────────
 const DEFAULT_USERS = [
+  
   { id: "alex", name: "Alex", email: "alexandre@dumdup.ch", pin: "1234" },
   { id: "katinka", name: "Katinka", email: "katinka@dumdup.ch", pin: "1234" },
   { id: "sophie", name: "Sophie", email: "sophie@dumdup.ch", pin: "1234" },
@@ -557,6 +558,8 @@ const DEFAULT_USERS = [
   { id: "morgane", name: "Morgane", email: "morgane@dumdup.ch", pin: "1234" },
   { id: "juliette", name: "Juliette", email: "juliette@dumdup.ch", pin: "1234" },
 ];
+const ADMIN_EMAILS = ["alexandre@dumdup.ch"];
+
 
 async function seedUsers() {
   for (const u of DEFAULT_USERS) {
