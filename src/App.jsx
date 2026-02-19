@@ -621,7 +621,7 @@ function LoginScreen({ onLogin, loading: authLoading }) {
         }}>
           <div style={{ marginBottom: 20 }}>
             <label style={{ display: "block", color: "rgba(255,255,255,0.5)", fontSize: 12, fontWeight: 600, letterSpacing: 0.5, marginBottom: 8 }}>Email</label>
-            <input type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="ton.email@venturahighway.ch" required
+            <input type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="ton.email@dumdup.ch" required
               style={{ width: "100%", padding: "12px 16px", borderRadius: 10, border: "1px solid rgba(255,255,255,0.1)", background: "rgba(255,255,255,0.04)", color: "#fff", fontSize: 14, fontFamily: "inherit", outline: "none", boxSizing: "border-box" }}
               onFocus={e => e.target.style.borderColor = "#F4A261"} onBlur={e => e.target.style.borderColor = "rgba(255,255,255,0.1)"} />
           </div>
