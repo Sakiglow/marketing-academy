@@ -419,7 +419,7 @@ const COURSES = [
 const TOTAL_MODULES = COURSES.reduce((acc, ch) => acc + ch.modules.length, 0);
 
 // ─── Admin email (toi) ───────────────────────
-const ADMIN_EMAILS = ["alex@venturahighway.ch"];
+const ADMIN_EMAILS = ["alexandre@dumdup.ch"];
 
 // ─── Firebase Auth Hook ──────────────────────
 function useAuth() {
