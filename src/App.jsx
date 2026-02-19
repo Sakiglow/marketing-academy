@@ -558,7 +558,6 @@ const DEFAULT_USERS = [
   { id: "morgane", name: "Morgane", email: "morgane@dumdup.ch", pin: "1234" },
   { id: "juliette", name: "Juliette", email: "juliette@dumdup.ch", pin: "1234" },
 ];
-const ADMIN_EMAILS = ["alexandre@dumdup.ch"];
 
 
 async function seedUsers() {
